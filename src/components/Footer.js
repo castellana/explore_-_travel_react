@@ -8,7 +8,7 @@ const Footer= () => {
         <footer>
             <section id="footer-grid">
                 <article>
-                    <img src={logo} alt=""/>
+                    <img src={logo} alt="logo explore"/>
                     <p>Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
                     <p>©2020 Thousand Sunny. All rights reserved</p>
                 </article>
@@ -46,13 +46,13 @@ const Footer= () => {
                     </ul>
                 </article>
             </section>
-            <br/>
+            <hr class="longLine"/>
             <div id="social-bar">
-            <FontAwesomeIcon icon={['fab', 'twitter']} />
-            <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-            <FontAwesomeIcon icon={['fab', 'instagram']} />
-            <FontAwesomeIcon icon={['fab', 'youtube']} />
-            <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
+                <FontAwesomeIcon icon={['fab', 'facebook-f']} size="2x"/>
+                <FontAwesomeIcon icon={['fab', 'instagram']} size="2x"/>
+                <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"/>
+                <FontAwesomeIcon icon={['fab', 'youtube']} size="2x"/>
             </div>
         </footer>
      );

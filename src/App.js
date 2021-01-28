@@ -8,8 +8,8 @@ import Login from './components/Login'
 import Register from './components/Register'
 import Footer from './components/Footer'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons' //social media icons 'fab'
+import { library } from '@fortawesome/fontawesome-svg-core' //esta frase debe estar
+import { fab } from '@fortawesome/free-brands-svg-icons' //esta es la librería de los social media icons 'fab'
 
 import './App.css';
 

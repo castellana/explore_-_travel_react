@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "image": "../img/raja_ampat.png",
+        "destination": "Raja Ampat",
+        "country": "Indonesia"
+       
+    },
+    {
+        "id": 2,
+        "image": "../img/fanjingshan.png",
+        "destination": "Fanjingshan",
+        "country": "China"
+        
+    },
+    {
+        "id": 3,
+        "image": "../img/vevey.png",
+        "destination": "Vevey",
+        "country": "Switzerland"
+        
+    },
+    {
+        "id": 4,
+        "image": "../img/skadar.png",
+        "destination": "Skadar",
+        "country": "Montenegro"
+        
+    }
+]

@@ -1,4 +1,4 @@
-import headerImg from '../img/header-explorer.png'
+
 
 const Header = () => {
     return ( 
@@ -33,7 +33,7 @@ const Header = () => {
                 
                 </section>
 
-                <img src={headerImg} alt=""/>
+                <img src="/img/header-explorer.png" alt=""/>
             </section>
         </main>
      );

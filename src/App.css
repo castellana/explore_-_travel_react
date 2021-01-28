@@ -43,6 +43,11 @@ footer p, footer a {
 .current {
     font-weight: 700;
 }
+
+h2 {
+    font-size: 2.2rem;
+}
+
 main {
     width: 85%;
     margin: 0 auto;
@@ -76,7 +81,9 @@ nav img {
     color: #fff;
     border-radius: 10px;
     width: min-content;
+    font-weight: 700;
 }
+
 #header {
     /* background: url("./img/header-explorer.png") right / contain no-repeat; */
     min-height: 60vh;
@@ -123,7 +130,53 @@ select {
 #header img {
     width: 40%;
 }
+/*** Home Section ***/
+#homeSec, #aboutSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15vh 0;
+}
 
+#homeSec img, #aboutSec img{
+    width: 100%;
+}
+
+#homeSec article img{
+    width: 7%;
+    position: absolute;
+    top: -30vh;
+    left: -30%;
+}
+
+#aboutSec article img {
+    width: 7%;
+    position: absolute;
+    top: 35vh;
+    left: 110%;
+}
+#homeSec article, #aboutSec article {
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+}
+
+#homeSec p, #aboutSec p {
+    padding: 2em 0;
+    line-height: 2em;
+}
+
+/**** Destination Section ****/
+#destinationSec div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
 /**** Footer ****/
 footer {
     background: #F9F9FB;

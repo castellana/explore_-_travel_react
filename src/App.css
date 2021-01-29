@@ -80,7 +80,7 @@ nav img {
     background: #FB8F1D;
     color: #fff;
     border-radius: 10px;
-    width: min-content;
+    width: fit-content;
     font-weight: 700;
 }
 
@@ -167,16 +167,39 @@ select {
 }
 
 /**** Destination Section ****/
-#destinationSec div{
+
+#destinationSec {
+    padding: 15vh 0;
+}
+.destination-title{
     display: flex;
     justify-content: space-between;
+    padding: 2vh 0;
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
+    grid-template-columns: repeat(4, 1fr); 
+    align-self: center;
+    gap: 20px;
 }
+
+.destinationItem {
+    width: 100%;
+}
+.foto-container {
+    position: relative;
+}
+.foto-container img {
+    width: 100%;
+}
+.bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2vh 3%;
+}
+
 /**** Footer ****/
 footer {
     background: #F9F9FB;

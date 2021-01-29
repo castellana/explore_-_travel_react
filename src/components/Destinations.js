@@ -7,17 +7,16 @@ const Destination = () => {
     return ( 
         <main>
             <section id="destinationSec">
-                <div>
+                <div class="destination-title">
                     <h2>Featured destinations</h2>
-                    <Link to="/">View all &#x27A4; </Link>
+                    <Link to="/" className="buttonOrange">View all &#x27A4;</Link>
                 </div>
                 <article className="gallery">
-                
-                {destinations.map(element => <DestinationItem
-                    image= {element.image}
-                    destination = {element.destination}
-                    country = {element.country}
-                    id = {element.id}
+                    {destinations.map(element => <DestinationItem
+                        image= {element.image}
+                        destination = {element.destination}
+                        country = {element.country}
+                        id = {element.id}
                     />)}
                 </article>
             </section>

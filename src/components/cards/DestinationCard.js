@@ -1,11 +1,14 @@
 const DestinationItem = (props) => {
     return ( 
-        <section id="destination">
-            <article className="foto-container">
+        <section class="destinationItem">
+            <figure className="foto-container">
                 <img src={props.image} alt=""/>
-                <h2 className="centered">{props.destination}</h2>
-            </article>
-            <h4 className="show-text">{props.country}</h4>
+                <figcaption className="bottom-left"> 
+                    <h3>{props.destination}</h3>
+                    <p>{props.country}</p>
+                </figcaption>
+            </figure>
+           
         </section>
      );
 }

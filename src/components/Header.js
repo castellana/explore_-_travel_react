@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return ( 
@@ -28,7 +28,7 @@ const Header = () => {
                         <select name="selectDate" id="">
                             <option value="" selected>Date</option>
                         </select>
-                        <a href="" className="buttonOrange">Explore</a> 
+                        <Link to="/destinations" className="buttonOrange">Explore</Link> 
                     </article>
                 
                 </section>

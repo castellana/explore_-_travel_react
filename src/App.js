@@ -7,9 +7,9 @@ import Partner from './components/Partner'
 import Login from './components/Login'
 import Register from './components/Register'
 import Footer from './components/Footer'
-
 import { library } from '@fortawesome/fontawesome-svg-core' //esta frase debe estar
 import { fab } from '@fortawesome/free-brands-svg-icons' //esta es la librería de los social media icons 'fab'
+import { faStar} from '@fortawesome/free-solid-svg-icons'
 
 import './App.css';
 
@@ -25,7 +25,7 @@ import {
 
 
 
-library.add(fab) //tiene que estar aquí abajo, si no, no funciona
+library.add(fab, faStar) //tiene que estar aquí abajo, si no, no funciona
 
 function App() {
     return (

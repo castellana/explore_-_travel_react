@@ -1,7 +1,7 @@
 const Register = () => {
     return ( 
-        <section>
-            <h2>Register</h2>
+        <section id="register">
+            <h2>Register page coming soon...</h2>
         </section>
      );
 }

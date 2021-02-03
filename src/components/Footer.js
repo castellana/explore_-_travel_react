@@ -46,7 +46,7 @@ const Footer= () => {
                     </ul>
                 </article>
             </section>
-            <hr class="longLine"/>
+            <hr className="longLine"/>
             <div id="social-bar">
                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
                 <FontAwesomeIcon icon={['fab', 'facebook-f']} size="2x"/>

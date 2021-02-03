@@ -7,9 +7,9 @@ const Destination = () => {
     return ( 
         <main>
             <section id="destinationSec">
-                <div class="destination-title">
+                <div className="secTitle-group">
                     <h2>Featured destinations</h2>
-                    <Link to="/" className="buttonOrange">View all &#x27A4;</Link>
+                    <Link to="/" className="orangeLink">View all &#x27A4; </Link>
                 </div>
                 <article className="gallery">
                     {destinations.map(element => <DestinationItem

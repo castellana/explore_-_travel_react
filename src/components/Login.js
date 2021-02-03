@@ -1,7 +1,7 @@
 const Login = () => {
     return ( 
-        <section>
-            <h2>Login</h2>
+        <section id="login">
+            <h2>Login page coming soon ...</h2>
         </section>
      );
 }

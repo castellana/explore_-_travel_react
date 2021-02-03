@@ -10,7 +10,7 @@ const StoryCard = (props) => {
             <figcaption>
                 <h3>{props.element.title}</h3>
                 <p className="ellipsisText" style={{display: readMore ? "inline-block" : "none"}}>{props.element.description.length < 78? props.element.description : props.element.description.slice(0, 78)+ `...`}
-                    <span className="orangeLink" style={props.element.description.length < 78? {display: "none"} : {display: "block"}} onClick={() => {setReadMore(!readMore)}}>Lee mas</span>
+                    <span className="orangeLink" style={props.element.description.length < 78? {display: "none"} : {display: "block"}} onClick={() => {setReadMore(!readMore)}}>Lee más</span>
                 </p>
                 <p style={{display: readMore ? "none" : "block"}}>{props.element.description}</p>
             </figcaption>

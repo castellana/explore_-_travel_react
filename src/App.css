@@ -265,7 +265,7 @@ select {
 }
 
 /**** Register , Login ****/
-#register, #login {
+#register, #login, #error {
     width: 60%;
     height: 50vh;
     margin: 0 auto;

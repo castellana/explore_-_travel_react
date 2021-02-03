@@ -1,6 +1,6 @@
 const Error = () => {
     return ( 
-        <section>
+        <section id="error">
             <h2>Error 404</h2>
         </section>
      );

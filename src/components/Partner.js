@@ -9,7 +9,7 @@ const Partner = () => {
             <section id="testimonialsSec">
                 <h2>Testimonials</h2>
                 <article>
-                    <div class="testiItem">
+                    <div className="testiItem">
                         <div className="starsGroup">
                             <FontAwesomeIcon icon="star" size="2x" color="#FFBB0C"/>
                             <FontAwesomeIcon icon="star" size="2x" color="#FFBB0C"/>
@@ -26,7 +26,7 @@ const Partner = () => {
                 </article>
             </section>
             <section id="storiesSec">
-                <div class="secTitle-group">
+                <div className="secTitle-group">
                     <h2>Trending stories</h2>
                     <span to="/" className="orangeLink">View all &#x27A4; </span>
                 </div>

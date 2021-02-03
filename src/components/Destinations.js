@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import destinations from '../data/destinations.json'
-
 import DestinationItem from './cards/DestinationCard'
 
 const Destination = () => {
